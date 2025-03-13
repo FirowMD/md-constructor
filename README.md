@@ -9,3 +9,4 @@ Simple MD document constructor
 </tr>
 </table>
 
+Download [here](https://github.com/FirowMD/md-constructor/releases)
