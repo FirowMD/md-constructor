@@ -1,0 +1,43 @@
+{
+  "name": "md-constructor",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudparker/easy-monaco-editor-svelte": "^2.0.0",
+    "@cloudparker/easy-script-loader-svelte": "^4.1.1",
+    "@cloudparker/easy-window-watcher": "^2.1.0",
+    "@skeletonlabs/skeleton": "^3.0.0",
+    "@sveltejs/adapter-auto": "^4.0.0",
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.19.0",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tailwindcss/vite": "^4.0.14",
+    "@tauri-apps/api": "^2.3.0",
+    "@tauri-apps/cli": "^2.3.1",
+    "@tauri-apps/plugin-opener": "^2.2.6",
+    "autoprefixer": "^10.4.21",
+    "lucide-svelte": "^0.474.0",
+    "marked": "^15.0.7",
+    "paneforge": "^0.0.6",
+    "svelte": "^5.23.0",
+    "svelte-check": "^4.1.5",
+    "svelte-dnd-action": "^0.9.60",
+    "tailwindcss": "^4.0.14",
+    "typescript": "~5.6.3",
+    "vite": "^6.2.1"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@tauri-apps/plugin-dialog": "~2.2.0"
+  }
+}
